@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#inputSection {
+    margin-bottom: 20px;
+}
+
+#puzzleSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.puzzleBox {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin: 2px;
+    position: relative;
+
+}
+
+#keySection {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.keyBox {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.keyContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 10px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    color: #333; /* Ajusta el color del texto según tus preferencias */
+}
